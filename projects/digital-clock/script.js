@@ -1,4 +1,5 @@
 const clock = document.getElementById('clock');
+const dateEl = document.getElementById('date');
 
 const DIGITS = {
   0: [1,1,1, 1,0,1, 1,0,1, 1,0,1, 1,1,1],
@@ -43,9 +44,11 @@ function updateClock() {
   clock.innerHTML = '';
 
   const now = new Date();
+
+  // ---- TIME ----
   const time = now
     .toTimeString()
-    .slice(0, 8)
+    .slice(0, 8) // HH:MM:SS
     .replace(/:/g, '');
 
   [...time].forEach((char, index) => {
@@ -55,6 +58,16 @@ function updateClock() {
       clock.appendChild(createSeparator());
     }
   });
+
+  // ---- DATE ----
+  const options = {
+    weekday: 'short',
+    day: '2-digit',
+    month: 'short',
+    year: 'numeric'
+  };
+
+  dateEl.textContent = now.toLocaleDateString(undefined, options);
 }
 
 updateClock();

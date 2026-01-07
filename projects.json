@@ -968,7 +968,17 @@
   "link": "./projects/Digital_Body_Language_Analyzer/index.html",
   "icon": "ri-pulse-line",
   "coverStyle": "background: linear-gradient(135deg, #020617 0%, #0f172a 100%); color:#e5e7eb;"
+},
+{
+  "title": "Mood-Driven Music UI",
+  "category": "utility",
+  "description": "Experience music visually through animated moods, motion, and rhythm—no sound.",
+  "tech": ["HTML", "CSS", "JS"],
+  "link": "./projects/Mood_Driven_Music_UI/index.html",
+  "icon": "ri-music-2-line",
+  "coverStyle": "background: linear-gradient(135deg, #1f2933 0%, #4c1d95 100%); color:#f5f3ff;"
 }
+
 
 
 ]

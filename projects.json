@@ -1,6 +1,16 @@
 [
 
   {
+    "title": "Notes Taking App",
+    "category": "utility",
+    "description": "A lightweight frontend notes app to create, edit, search, and store notes using LocalStorage.",
+    "tech": ["HTML", "CSS", "JavaScript"],
+    "link": "./projects/NotesTaking/index.html",
+    "icon": "ri-sticky-note-line",
+    "coverStyle": "background: linear-gradient(135deg, #ecfeff 0%, #cffafe 100%); color:#164e63;"
+  },
+  
+  {
   "title": "Stack vs Queue Visualizer",
   "category": "utility",
   "description": "Interactive visualizer to understand Stack (LIFO) and Queue (FIFO) operations with animations and explanations.",
